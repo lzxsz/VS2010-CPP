@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModelDialogClass</class>
+ <widget class="QMainWindow" name="ModelDialogClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ModelDialog</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButton_ShowModelDialog">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>160</y>
+      <width>161</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show Model Dialog</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="modeldialog.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_ShowModelDialog</sender>
+   <signal>clicked()</signal>
+   <receiver>ModelDialogClass</receiver>
+   <slot>OnShowDialog()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>288</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>307</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>OnShowDialog()</slot>
+ </slots>
+</ui>
