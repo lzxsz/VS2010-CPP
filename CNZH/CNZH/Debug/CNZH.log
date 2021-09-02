@@ -1,0 +1,36 @@
+﻿Build started 2021/9/2 21:45:49.
+     1>Project "C:\GitHub\VS2010-CPP\CNZH\CNZH\CNZH.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\CNZH.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\CNZH.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing cnzh.h...
+         Uic'ing cnzh.ui...
+         Rcc'ing cnzh.qrc...
+     1>RCC : warning : No resources in 'C:\GitHub\VS2010-CPP\CNZH\CNZH\cnzh.qrc'.
+         
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.7\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.7\include\QtCore /IC:\Qt\4.8.7\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cnzh.cpp GeneratedFiles\Debug\moc_cnzh.cpp main.cpp
+         cnzh.cpp
+         moc_cnzh.cpp
+         main.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.7\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.7\include\QtCore /IC:\Qt\4.8.7\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_cnzh.cpp
+         qrc_cnzh.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GitHub\VS2010-CPP\CNZH\Win32\Debug\\CNZH.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.7\lib qtmaind.lib QtCored4.lib QtGuid4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\CNZH.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\GitHub\VS2010-CPP\CNZH\Win32\Debug\CNZH.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GitHub\VS2010-CPP\CNZH\Win32\Debug\CNZH.lib" /MACHINE:X86 Debug\cnzh.obj
+         Debug\moc_cnzh.obj
+         Debug\qrc_cnzh.obj
+         Debug\main.obj
+         CNZH.vcxproj -> C:\GitHub\VS2010-CPP\CNZH\Win32\Debug\CNZH.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\GitHub\VS2010-CPP\CNZH\Win32\Debug\\CNZH.exe;#1" /manifest Debug\CNZH.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\CNZH.unsuccessfulbuild".
+         Touching "Debug\CNZH.lastbuildstate".
+     1>Done Building Project "C:\GitHub\VS2010-CPP\CNZH\CNZH\CNZH.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.06
