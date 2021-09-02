@@ -1,5 +1,5 @@
 // HelloOpenCV.cpp : Defines the entry point for the console application.
-//
+// Development Tools: VS2010 + opencv-2.4.11
 
 #include "stdafx.h"
 #include <opencv.hpp>
