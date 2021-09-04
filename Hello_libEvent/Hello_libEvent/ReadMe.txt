@@ -38,3 +38,7 @@ AppWizard uses "TODO:" comments to indicate parts of the source code you
 should add to or customize.
 
 /////////////////////////////////////////////////////////////////////////////
+
+Development tools and libraries:
+Microsoft Visual Studio 2010
+libevent-2.0.22-stable
